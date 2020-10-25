@@ -1,16 +1,20 @@
 <idea-plugin>
-    <id>com.smyachenkov.json-patch-plugin</id>
+    <id>com.smyachenkov.jsonpatchplugin</id>
     <name>JSON Patch</name>
+    <description>
+        This plugin allows you to apply JSON Patch to json documents in your project.
+        For more information about notation see https://tools.ietf.org/html/rfc6902.
+    </description>
+    <change-notes>
+        Initial release of the JSON Patch plugin.
+    </change-notes>
+    <version>1.0.0</version>
     <vendor
             email="s.myachenkov@gmail.com"
             url="https://www.smyachenkov.com"
     >
         Stanislav Myachenkov
     </vendor>
-    <description>
-        This plugin allows you to apply JSON Patch to json documents in your project.
-        For more information about notation see https://tools.ietf.org/html/rfc6902.
-    </description>
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij"/>
