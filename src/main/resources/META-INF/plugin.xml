@@ -8,7 +8,7 @@
     <change-notes>
         Initial release of the JSON Patch plugin.
     </change-notes>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <vendor
             email="s.myachenkov@gmail.com"
             url="https://www.smyachenkov.com"
