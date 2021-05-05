@@ -32,3 +32,8 @@ compileTestKotlin {
 publishPlugin {
     token = System.getenv("ORG_GRADLE_PROJECT_intellijPublishToken")
 }
+
+patchPluginXml {
+    sinceBuild '202'
+    untilBuild '211'
+}
