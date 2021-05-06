@@ -16,7 +16,6 @@
         Stanislav Myachenkov
     </vendor>
     <depends>com.intellij.modules.platform</depends>
-    <idea-version since-build="202"/>
     <extensions defaultExtensionNs="com.intellij"/>
 
     <actions>
